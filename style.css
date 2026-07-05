@@ -1,0 +1,152 @@
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lora', serif;
+    background-color: #ffffff;
+    color: #333;
+}
+
+h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.section-one {
+    background-color: black;
+    color: white;
+    padding: 40px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.section-one__title {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.section-one__desc {
+    font-size: 19.2px;
+    margin-bottom: 20px;
+}
+
+.section-one__link {
+    display: inline-block;
+    color: #70e6b7;
+    text-decoration: none;
+    font-weight: bold;
+    border: 2px solid #70e6b7;
+    padding: 8px 16px;
+    border-radius: 5px;
+}
+
+.section-one__link:hover {
+    background-color: #70e6b7;
+    color: black;
+}
+
+.section-two {
+    margin-bottom: 40px;
+    padding: 10px;
+}
+
+.section-two h1 {
+    margin-bottom: 15px;
+}
+
+.main-layout {
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+    margin-bottom: 40px;
+}
+
+
+.section-three {
+    background-color: #70e6b7;
+    color: #000;
+    border-radius: 10px;
+    padding: 25px;
+    text-align: left;
+}
+
+.section-three__title {
+    margin-bottom: 15px;
+}
+
+.section-three__desc {
+    padding-left: 0; 
+    margin-left: 0;
+    list-style-type: none; 
+    text-align: left;
+}
+
+.section-three__desc li {
+    margin-bottom: 8px;
+    text-align: left;
+}
+
+
+.section-four {
+    background-color: rgb(255, 127, 127);
+    color: #000;
+    flex: 1;
+    border-radius: 10px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Perfect automatic growth and uniform card gap */
+}
+
+.section-four__title {
+    margin-bottom: 5px;
+}
+
+.project-card {
+    display: flex;
+    flex-direction: column;
+    gap: 4px; 
+}
+
+.project-card h3 {
+    font-size: 1.2rem;
+}
+
+.section-four__desc--one,
+.section-four__desc--two,
+.section-four__desc--three {
+    font-weight: bold;
+    font-style: italic;
+    opacity: 0.9;
+}
+
+.section-five {
+    background-color: #000;
+    color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.section-five__link {
+    color: #70e6b7;
+    text-decoration: none;
+}
+
+.copyright {
+    font-size: 0.9rem;
+    color: #666;
+    text-align: center;
+    margin-top: 10px;
+}
